@@ -28,7 +28,7 @@ public class ClearTest {
 		cp.knowMore();
 		cp.method();
 		cp.searchAgain();
-		Assert.assertTrue( cp.checkRadionButton1(),"Button is disabled");
+		Assert.assertTrue( cp.checkRadionButton1(),"Button is disableddd");
 		Assert.assertFalse(cp.checkRadionButton2(), "message2");
 		Assert.assertFalse(cp.checkRadionButton3(), "message3");
 		Assert.assertFalse(cp.checkRadionButton4(), "message4");
